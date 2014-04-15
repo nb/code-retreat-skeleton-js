@@ -2,7 +2,7 @@
 
 ## Installation
 
-First, install Node.js.
+First, install [Node.js](http://nodejs.org/), if you don’t have it.
 
 Then, run
 
