@@ -40,4 +40,4 @@ Deleting code is hard on the mind, but not hard on the console. Just run:
 $ npm run-script reset
 ```
 
-**WARGNING:** This will **permanently** delete all modifications after the previous commit.
+**WARNING:** This will **permanently** delete all modifications after the previous commit.
