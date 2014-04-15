@@ -13,6 +13,7 @@
 		"node": "*"
 	},
 	"scripts": {
-		"test": "node_modules/mocha/bin/mocha -R spec  index.js"
+		"test": "node_modules/mocha/bin/mocha -R spec  index.js",
+		"reset" "git reset HEAD --hard && git clean -f -d"
 	}
 }

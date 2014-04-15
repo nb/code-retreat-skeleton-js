@@ -31,3 +31,13 @@ The game of life code is short enough so that it’s fine if we write both the c
 ```
 $ npm test
 ```
+
+## Starting a New Session
+
+Deleting code is hard on the mind, but not hard on the console. Just run:
+
+```
+$ npm run-script reset
+```
+
+**WARGNING:** This will **permanently** delete all modifications after the previous commit.
