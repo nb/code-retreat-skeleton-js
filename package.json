@@ -6,7 +6,8 @@
 	"author": "Nikolay Bachiyski <nb@nikolay.bg>",
 	"dependencies": {
 		"mocha": "*",
-		"better-assert": "*"
+		"better-assert": "*",
+		"lodash": "*"
 	},
 	"main": "index",
 	"engines": {
