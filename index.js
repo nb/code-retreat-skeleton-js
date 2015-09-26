@@ -1,5 +1,5 @@
-// assert reference: http://chaijs.com/api/assert/
-var assert = require( 'chai' ).assert;
+var assert = require( 'chai' ).assert, // assert reference: http://chaijs.com/api/assert/
+	_ = require( 'lodash' ); // handy utilities: https://lodash.com/
 
 describe( 'Numbers', function() {
 	describe( 'Sample', function() {
