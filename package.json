@@ -6,7 +6,7 @@
 	"author": "Nikolay Bachiyski <nb@nikolay.bg>",
 	"dependencies": {
 		"mocha": "*",
-		"better-assert": "*",
+		"chai": "*",
 		"lodash": "*"
 	},
 	"main": "index",

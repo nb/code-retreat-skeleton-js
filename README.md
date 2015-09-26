@@ -22,7 +22,7 @@ $ npm test
 
 This primer uses [Mocha](http://visionmedia.github.io/mocha/). The project website has good and consice documentation about how it works.
 
-Asserts are done via the [better-assert](https://github.com/visionmedia/better-assert) library, which is very straight-forward, just pass a boolean value.
+Asserts are done via the [chai assert library](http://chaijs.com/api/assert/) library.
 
 The game of life code is short enough so that it’s fine if we write both the code and the tests in the same file.
 
