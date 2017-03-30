@@ -20,7 +20,7 @@ $ npm test
 
 ## Writing Tests
 
-This primer uses [Mocha](http://visionmedia.github.io/mocha/). The project website has good and consice documentation about how it works.
+This primer uses [Mocha](http://mochajs.org/). The project website has good and consice documentation about how it works.
 
 Asserts are done via the [chai assert library](http://chaijs.com/api/assert/) library.
 
