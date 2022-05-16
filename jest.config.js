@@ -10,6 +10,6 @@ module.exports = {
   coverageProvider: "v8",
   // The glob patterns Jest uses to detect test files
   testMatch: [
-    "**/*.[jt]s?(x)"
+    "**/index.js"
   ]
 };
