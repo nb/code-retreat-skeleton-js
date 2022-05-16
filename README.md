@@ -22,6 +22,8 @@ $ npm test
 
 This primer uses [Jest](https://jestjs.io/). The project website has good and consice documentation about how it works.
 
+The game of life code is short enough so that it’s fine if we write both the code and the tests in the same file.
+
 ## Running Tests
 
 ```
