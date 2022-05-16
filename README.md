@@ -2,7 +2,7 @@
 
 ## Installation
 
-First, install [Node.js](http://nodejs.org/), if you don’t have it.
+First, install [Node.js](http://nodejs.org/), if you don’t have it. You can use [NVM](https://github.com/nvm-sh/nvm) to ensure you have the expected version.
 
 Then, run
 
@@ -20,9 +20,7 @@ $ npm test
 
 ## Writing Tests
 
-This primer uses [Mocha](http://mochajs.org/). The project website has good and consice documentation about how it works.
-
-Asserts are done via the [chai assert library](http://chaijs.com/api/assert/) library.
+This primer uses [Jest](https://jestjs.io/). The project website has good and consice documentation about how it works.
 
 The game of life code is short enough so that it’s fine if we write both the code and the tests in the same file.
 
@@ -30,6 +28,12 @@ The game of life code is short enough so that it’s fine if we write both the c
 
 ```
 $ npm test
+```
+
+Or watch tests for changes with:
+
+```
+npm test:watch
 ```
 
 ## Starting a New Session

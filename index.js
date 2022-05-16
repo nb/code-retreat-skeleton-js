@@ -1,18 +1,15 @@
-import _ from 'lodash';
-import { assert } from 'chai'; // assert reference: http://chaijs.com/api/assert/
+// Implement Game of Life here
 
-describe( 'Numbers', () => {
-	describe( 'Sample', () => {
-		it( '2 should be larger than 1', () => {
-			assert( 2 > 1 );
-		} );
+describe( 'The Game of Life', () => {
+    test( '2 should be larger than 1', () => {
+        expect( 2 ).toBeGreaterThan( 1 );
+    } );
 
-		it( '1 should equal 1', () => {
-			assert.equal( 1, 1 );
-		} );
+    test( '1 should equal 1', () => {
+        expect( 1 ).toEqual( 1 );
+    } );
 
-		it( 'those two arrays should be equal', () => {
-			assert.deepEqual( [1, 2, 3], [1, 2, 3] );
-		} );
-	} );
+    test( 'those two arrays should be equal', () => {
+        expect( [1, 2, 3] ).toEqual( [1, 2, 3] );
+    } );
 } );
