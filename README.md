@@ -33,7 +33,7 @@ $ npm test
 Or watch tests for changes with:
 
 ```
-npm test:watch
+npm run test:watch
 ```
 
 ## Starting a New Session
@@ -41,7 +41,7 @@ npm test:watch
 Deleting code is hard on the mind, but not hard on the console. Just run:
 
 ```
-$ npm run-script reset
+$ npm run reset
 ```
 
 **WARNING:** This will **permanently** delete all modifications after the previous commit.
