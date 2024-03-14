@@ -22,7 +22,6 @@
     "reset": "git reset HEAD --hard && git clean -f -d"
   },
   "devDependencies": {
-    "@types/jest": "^27.5.1",
-    "jest": "^28.1.0"
+    "jest": "^29.5.12"
   }
 }
